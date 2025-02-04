@@ -3,11 +3,19 @@
   <span class="subhead">User Login</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, you will be able to implement a login route that authenticates a user using their username and password, and generates a JWT token in a Python FastAPI application.
+**Learning objective:** By the end of this lesson, you will be able to implement a login route that authenticates a user using their username and password and generates a JWT token in a Python FastAPI application.
 
 ## User login and `JWT` token creation
 
 In this lesson, we'll implement a **login route** where users can authenticate by providing their **username** and **password**. We will verify the provided password against the hashed password stored in the database using a `verify_password` method. If the credentials are correct, we’ll generate and return a **JWT token**.
+
+### Installing dependencies
+
+Before implementing authentication, ensure you have installed `pyjwt`, which is required for generating JWT tokens:
+
+```bash
+pipenv install pyjwt
+```
 
 ### 1. Updating the `user` model
 
