@@ -16,16 +16,44 @@ concepts = new Template.Microlesson {
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+creatingUserModel = new Template.Microlesson {
+  friendlyName = "Creating User Model"
+  dirName = "creating-user-model"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+userPasswordHashing = new Template.Microlesson {
+  friendlyName = "User Password Hashing"
+  dirName = "user-password-hashing"
+  type = "Content"
+  videoUrl = ""
+}
+
+creatingUserSerializer = new Template.Microlesson {
+  friendlyName = "Creating User Serializer"
+  dirName = "creating-user-serializer"
+  type = "Content"
+  videoUrl = ""
+}
+
+creatingUserController = new Template.Microlesson {
+  friendlyName = "Creating User Controller"
+  dirName = "creating-user-controller"
+  type = "Content"
+  videoUrl = ""
+}
+
+seedingUserData = new Template.Microlesson {
+  friendlyName = "Seeding User Data"
+  dirName = "seeding-user-data"
+  type = "Content"
+  videoUrl = ""
+}
+
+userLogin = new Template.Microlesson {
+  friendlyName = "User Login"
+  dirName = "user-login"
   type = "Content"
   videoUrl = ""
 }

@@ -1,21 +1,25 @@
 <h1>
-  <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="prefix">Python</span>
+  <span class="headline">FastAPI Authentication</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module covers the foundational concepts and practical implementations needed to authenticate users in a Python FastAPI application. Learners will explore the process of securely managing user credentials, from storing passwords using hashing techniques to generating and using JWT (JSON Web Tokens) for secure API access.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                           | Est. Delivery Time | Skills                                                                                                                                                    |
+| ---------------------------------------------------------------- | :----------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                       |       5 min        | Set up the development environment, including installing dependencies and configuring project structure.                                                  |
+| [Concepts](./concepts/README.md)                                 |       15 min       | Learn about JWT (JSON Web Tokens) Authentication, including its purpose, structure, and usage in securing APIs.                                           |
+| [Creating User Model](./creating-user-model/README.md)           |       10 min       | Create a SQLAlchemy model for a user, defining fields such as `username`, `email`, and `password_hash`, and database relations.                           |
+| [User Password Hashing](./user-password-hashing/README.md)       |       15 min       | Implement password hashing for user authentication using the `passlib` library to securely store user passwords.                                          |
+| [Creating User Serializer](./creating-user-serializer/README.md) |       10 min       | Define a Pydantic serializer to handle the validation and transformation of user data, including hashed passwords.                                        |
+| [Creating User Controller](./creating-user-controller/README.md) |       15 min       | Create and mount a FastAPI router to handle user-related API requests such as registration, login, and password validation.                               |
+| [Seeding User Data](./seeding-user-data/README.md)               |       10 min       | Seed a database with test user data to populate the application with example users for testing purposes.                                                  |
+| [User Login](./user-login/README.md)                             |       25 min       | Implement a login route that authenticates users by validating their credentials (username and password) and generates a JWT token for authorized access. |
+| **Total content**                                                |      105 min       |                                                                                                                                                           |
 
 ## References
 
@@ -25,32 +29,21 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
+- Python FastAPI Serializers and Controllers
+- Python FastAPI Serializers and Controllers Lab
 
 ### Starter code
 
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
+🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-serializers-and-controllers-lab-solution)
 
 ### Solution code
 
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-authentication-solution)
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-authentication/canvas-landing-pages/apd.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-authentication/canvas-landing-pages/fallback.html)
 
 ### Resources
 

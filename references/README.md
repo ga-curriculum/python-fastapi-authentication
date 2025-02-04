@@ -1,10 +1,8 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">FastAPI Authentication</span>
   <span class="subhead">References</span>
 </h1>
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [`passlib`](https://pypi.org/project/passlib/)
