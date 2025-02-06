@@ -18,9 +18,6 @@ This script resets the database and adds initial test data, including `users`, `
 
 from sqlalchemy.orm import Session, sessionmaker
 from models.base import Base
-from models.tea import TeaModel
-from models.comment import CommentModel
-from models.user import UserModel
 from data.tea_data import teas_list, comments_list
 from data.user_data import user_list # Add user list
 from config.environment import db_URI
