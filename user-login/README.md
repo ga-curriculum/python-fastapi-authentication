@@ -59,8 +59,8 @@ class UserModel(Base):
     def generate_token(self):
         # Define the payload
         payload = {
-            "exp": datetime.utcnow() + timedelta(days=1),  # Expiration time (1 day)
-            "iat": datetime.utcnow(),  # Issued at time
+            "exp": datetime.now(timezone.utc) + timedelta(days=1),  # Expiration time (1 day)
+            "iat": datetime.now(timezone.utc),  # Issued at time
             "sub": self.id,  # Subject - the user ID
         }
 
