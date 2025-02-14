@@ -79,7 +79,7 @@ In the `config/environment.py` file, we'll define a secret key for JWT generatio
 ```py
 # config/environment.py
 
-db_URI = "postgresql://postgres:postgres@localhost:5432/teas_db"
+db_URI = "postgresql://<username>@localhost:5432/teas_db"
 secret = "mysecretcode"  # This secret is used to sign the JWT token
 ```
 

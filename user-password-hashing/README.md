@@ -19,12 +19,12 @@ In this lesson, we will:
 
 ## Installing `passlib`
 
-To hash passwords in Python, we use the [passlib](https://pypi.org/project/passlib/) library with the `bcrypt` hashing algorithm.
+To hash passwords in Python, we use the [`passlib`](https://pypi.org/project/passlib/) library with the [`bcrypt`](https://pypi.org/project/bcrypt/) hashing algorithm.
 
-Run the following command to install it:
+Run the following command to install these packages:
 
 ```sh
-pipenv install passlib
+pipenv install passlib bcrypt
 ```
 
 ### Why Use `bcrypt`?
