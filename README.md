@@ -34,11 +34,11 @@ This module covers the foundational concepts and practical implementations neede
 
 ### Starter code
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-serializers-and-controllers-lab-solution)
+🟢 [Starter code](https://github.com/ga-curriculum/python-fastapi-serializers-and-controllers-lab-solution)
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-authentication-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/python-fastapi-authentication-solution)
 
 ### Course landing pages
 
